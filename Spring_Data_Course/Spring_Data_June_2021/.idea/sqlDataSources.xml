@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="092eb922-d367-48b3-ab41-233071d980d0" />
+          <option name="name" value="minions_db" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/../../Database_queries/Spring_Data_June_2021/1_Database_Access_with_JDBC/Exercise/minions_db.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

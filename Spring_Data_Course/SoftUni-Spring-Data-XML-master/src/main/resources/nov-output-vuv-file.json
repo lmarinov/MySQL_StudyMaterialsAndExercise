@@ -1,0 +1,23 @@
+[
+  {
+    "subordinates": [
+      {
+        "salary": 3053.10,
+        "firstName": "Mako",
+        "lastName": "Taki"
+      }
+    ],
+    "firstName": "Leo",
+    "lastName": "Tear"
+  },
+  {
+    "subordinates": [],
+    "firstName": "Mako",
+    "lastName": "Taki"
+  },
+  {
+    "subordinates": [],
+    "firstName": "Ot XML",
+    "lastName": "File"
+  }
+]

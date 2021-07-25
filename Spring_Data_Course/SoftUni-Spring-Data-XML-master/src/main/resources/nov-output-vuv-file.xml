@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<managers>
+    <manager first_name="Leo" last_name="Tear">
+        <subordinates>
+            <employees first_name="Mako" last_name="Taki" income="3053.10"/>
+        </subordinates>
+    </manager>
+    <manager first_name="Mako" last_name="Taki">
+        <subordinates/>
+    </manager>
+    <manager first_name="Ot XML" last_name="File">
+        <subordinates/>
+    </manager>
+</managers>
