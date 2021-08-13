@@ -16,7 +16,6 @@ public class UserLoginDto {
         this.password = password;
     }
 
-    @Email
     public String getEmail() {
         return this.email;
     }
@@ -25,7 +24,6 @@ public class UserLoginDto {
         this.email = email;
     }
 
-    @Pattern(regexp = "\"^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{6,}$\"")
     public String getPassword() {
         return this.password;
     }

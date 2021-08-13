@@ -16,7 +16,7 @@ public class User extends BaseEntity{
     public User() {
     }
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     public Set<Game> getGames() {
         return this.games;
     }

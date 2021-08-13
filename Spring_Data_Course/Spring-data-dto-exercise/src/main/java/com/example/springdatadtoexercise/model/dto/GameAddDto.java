@@ -2,7 +2,6 @@ package com.example.springdatadtoexercise.model.dto;
 
 import javax.validation.constraints.*;
 import java.math.BigDecimal;
-import java.time.LocalDate;
 
 public class GameAddDto {
 
@@ -27,7 +26,7 @@ public class GameAddDto {
         this.releaseDate = releaseDate;
     }
 
-    @Pattern(regexp = "^[A-Z][a-z]{6,100}", message = "Enter valid title.")
+    @Pattern(regexp = "^[A-Z][a-z]{2,99}$", message = "Enter valid title.")
     public String getTitle() {
         return this.title;
     }
@@ -63,7 +62,7 @@ public class GameAddDto {
         this.trailer = trailer;
     }
 
-    @Pattern(regexp = "(https?).*", message = "Enter valid url.")
+    @Pattern(regexp = "(https?://).*", message = "Enter valid url.")
     public String getThumbnailUrl() {
         return this.thumbnailUrl;
     }
